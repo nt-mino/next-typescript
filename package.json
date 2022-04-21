@@ -3,15 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 5000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@stripe/stripe-js": "^1.27.0",
+    "firebase": "^9.6.11",
+    "firebase-admin": "^10.0.2",
+    "framer-motion": "^6",
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "recoil": "^0.7.2",
+    "stripe": "^8.218.0"
   },
   "devDependencies": {
     "@types/node": "17.0.25",
